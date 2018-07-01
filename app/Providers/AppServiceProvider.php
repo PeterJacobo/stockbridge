@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace stockbridge\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
