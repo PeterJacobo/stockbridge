@@ -1,6 +1,6 @@
 <?php
 
-namespace stockbridge\Http\Controllers;
+namespace Stockbridge\Http\Controllers;
 
 use Illuminate\Http\Request;
 

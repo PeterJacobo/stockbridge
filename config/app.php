@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        stockbridge\Providers\AppServiceProvider::class,
-        stockbridge\Providers\AuthServiceProvider::class,
-        // stockbridge\Providers\BroadcastServiceProvider::class,
-        stockbridge\Providers\EventServiceProvider::class,
-        stockbridge\Providers\RouteServiceProvider::class,
+        Stockbridge\Providers\AppServiceProvider::class,
+        Stockbridge\Providers\AuthServiceProvider::class,
+        // Stockbridge\Providers\BroadcastServiceProvider::class,
+        Stockbridge\Providers\EventServiceProvider::class,
+        Stockbridge\Providers\RouteServiceProvider::class,
 
     ],
 

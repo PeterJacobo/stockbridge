@@ -12,7 +12,27 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $links = \Stockbridge\Link::all();
+
+    return view('welcome')->withLinks($links);
+});
+
+Route::get('/submit', function () {
+    return view('submit');
+});
+
+use Illuminate\Http\Request;
+
+Route::post('/submit', function (Request $request) {
+    $data = $request->validate([
+        'title' => 'required|max:255',
+        'url' => 'required|url|max:255',
+        'description' => 'required|max:255',
+    ]);
+
+    $link = tap(new Stockbridge\Link($data))->save();
+
+    return redirect('/');
 });
 
 Auth::routes();

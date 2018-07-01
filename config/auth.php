@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => stockbridge\User::class,
+            'model' => Stockbridge\User::class,
         ],
 
         // 'users' => [

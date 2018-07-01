@@ -1,6 +1,6 @@
 <?php
 
-namespace stockbridge\Http\Middleware;
+namespace Stockbridge\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as Middleware;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace stockbridge\Http\Middleware;
+namespace Stockbridge\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

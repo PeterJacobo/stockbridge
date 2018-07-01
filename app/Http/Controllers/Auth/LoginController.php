@@ -1,8 +1,8 @@
 <?php
 
-namespace stockbridge\Http\Controllers\Auth;
+namespace Stockbridge\Http\Controllers\Auth;
 
-use stockbridge\Http\Controllers\Controller;
+use Stockbridge\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller

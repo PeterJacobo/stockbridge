@@ -1,6 +1,6 @@
 <?php
 
-namespace stockbridge\Http\Middleware;
+namespace Stockbridge\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Fideloper\Proxy\TrustProxies as Middleware;

@@ -1,9 +1,9 @@
 <?php
 
-namespace stockbridge\Http\Controllers\Auth;
+namespace Stockbridge\Http\Controllers\Auth;
 
-use stockbridge\User;
-use stockbridge\Http\Controllers\Controller;
+use Stockbridge\User;
+use Stockbridge\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \stockbridge\User
+     * @return \Stockbridge\User
      */
     protected function create(array $data)
     {

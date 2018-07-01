@@ -1,6 +1,6 @@
 <?php
 
-namespace stockbridge\Http\Controllers;
+namespace Stockbridge\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

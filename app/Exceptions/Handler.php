@@ -1,6 +1,6 @@
 <?php
 
-namespace stockbridge\Exceptions;
+namespace Stockbridge\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

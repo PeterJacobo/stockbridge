@@ -1,6 +1,6 @@
 <?php
 
-namespace stockbridge;
+namespace Stockbridge;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
