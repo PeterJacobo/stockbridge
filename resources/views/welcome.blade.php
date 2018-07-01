@@ -11,14 +11,14 @@
 
     </head>
     <body>
-        <form action="/view" method="post">
+        <form action="/api/view" method="post">
             <div class="text-center mb-4">
                 <h1 class="h3 mb-3 font-weight-normal">Stockbridge Search</h1>
                 <p>Search for a magic card from the Core 19 set.</p>
             </div>
 
             <div class="form-label-group">
-                <input id="cardNameInput" class="form-control" placeholder="Enter card name" type="text">
+                <input id="cardNameInput" name="cardNameInput" class="form-control" placeholder="Enter card name" type="text">
                 <label for="cardNameInput">Enter card name</label>
             </div>
 
