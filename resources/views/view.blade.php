@@ -41,8 +41,8 @@
                 </div>
               </li>
             </ul>
-            <form class="form-inline my-2 my-md-0">
-              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <form class="form-inline my-2 my-md-0" action="/api/view" method="post">
+              <input class="form-control" type="text" name="cardNameInput" placeholder="Search" aria-label="Search">
             </form>
           </div>
         </div>
