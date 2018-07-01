@@ -29,11 +29,12 @@ Route::post('/view', function (Request $request) {
 
     $client = new Client(); //GuzzleHttp\Client
 
-    $result = $client->request('GET', 'https://api.scryfall.com/cards/named', [
-        'query' => ['exact' => $cardname],
+    $result = $client->request('GET', 'https://api.scryfall.com/cards/search', [
+        'query' => ['q' => $cardname],
     ]);
 
-    $card = json_decode($result->getBody(), true);
+    $response = json_decode($result->getBody(), true);
+    $cards = $response['data'];
 
-    return view('view')->with('card', $card);
+    return view('view')->with('cards', $cards);
 });

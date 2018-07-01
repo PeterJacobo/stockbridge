@@ -14,7 +14,7 @@
         <form action="/api/view" method="post">
             <div class="text-center mb-4">
                 <h1 class="h3 mb-3 font-weight-normal">Stockbridge Search</h1>
-                <p>Search for a magic card from the Core 19 set.</p>
+                <p>Search for a magic card by name.</p>
             </div>
 
             <div class="form-label-group">
